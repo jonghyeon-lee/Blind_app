@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/login_button_text"
+        android:background="@color/login_button_bg"
+        android:id="@+id/logout" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/send_mail"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/logout"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/login_button_text"
+        android:background="@color/login_button_bg"
+        android:id="@+id/btn_send_mail" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/send_sms"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btn_send_mail"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/login_button_text"
+        android:background="@color/login_button_bg"
+        android:id="@+id/btn_send_sms" />
+</RelativeLayout>

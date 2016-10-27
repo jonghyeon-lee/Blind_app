@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#7d7d7d</color>
+    <color name="colorAccent">#FAE100</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="basicPurple">#9900E5</color>
+    <color name="buttonOrange">#440065</color>
+    <color name="chatBackground">#3AD9C8</color>
+    <color name="black_overlay">#66000000</color>
+
+    <!-- BUTTON -->
+    <color name="login_button_bg">#333333</color>
+    <color name="login_button_text">#ffffff</color>
+    <!-- EDIT TEXT -->
+    <color name="login_text_hint">#fdeed8</color>
+    <color name="login_text">#ffffff</color>
+
+
+</resources>

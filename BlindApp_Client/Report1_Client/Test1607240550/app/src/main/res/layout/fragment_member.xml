@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="#f89e02"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:divider="#f89e02"
+        android:dividerHeight="2dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_profile"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="15dp"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/mystate"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/basicPurple"
+            android:dividerHeight="2dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/friend"
+                android:layout_marginTop="12dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.8"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/refresh"
+                android:layout_marginTop="12dp"
+                android:textSize="15dp"
+                android:layout_weight="0.1"
+                />
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/refresh_friend"
+                android:background="@drawable/refresh"
+                android:layout_gravity="end"
+                />
+        </LinearLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/Friend" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:id="@+id/mem_listView" />
+    </LinearLayout>
+
+
+</LinearLayout>

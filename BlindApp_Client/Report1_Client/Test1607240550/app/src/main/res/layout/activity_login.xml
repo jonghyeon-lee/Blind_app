@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/icon_logo"
+        android:layout_above="@+id/name"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:hint="@string/login1_hint"
+        android:id="@+id/name"
+        android:textColor="@color/login_text"
+        android:textColorHint="@color/login_text_hint"
+
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <EditText
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:textSize="20sp"
+        android:hint="@string/login2_hint"
+        android:id="@+id/mobno"
+        android:textColor="@color/login_text"
+        android:textColorHint="@color/login_text_hint"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/log_btn"
+        android:layout_width="290dp"
+        android:layout_height="45dp"
+        android:textSize="15sp"
+        android:text="@string/login_button"
+        android:textColor="@color/login_button_text"
+        android:background="@color/login_button_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mobno"/>
+
+    <Button
+        android:id="@+id/new_register_btn"
+        android:layout_width="290dp"
+        android:layout_height="35dp"
+        android:textSize="15sp"
+        android:text="@string/register_button"
+        android:textColor="@color/login_button_text"
+        android:background="@color/login_button_bg"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp" />
+</RelativeLayout>
